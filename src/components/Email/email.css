@@ -1,0 +1,53 @@
+@import url(../../index.css);
+
+li {
+  display: flex;
+  margin: 1.4rem 0;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  background-color: white;
+  cursor: pointer;
+}
+
+.email__selected {
+  display: flex;
+  margin: 1.4rem 0;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.email__read {
+  background-color: var(--read-background-color);
+}
+
+.email__list p {
+  margin-bottom: 0.4rem;
+  font-size: 0.9rem;
+  color: var(--text-color);
+  font-weight: 400;
+  max-width: 18rem;
+}
+
+.email__list header {
+  margin-bottom: 0.6rem;
+}
+
+.email__body__footer p {
+  font-size: 0.8rem;
+}
+
+.email__list p span {
+  margin-left: 2rem;
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 0.75rem;
+}
+
+.description {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

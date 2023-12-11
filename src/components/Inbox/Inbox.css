@@ -1,0 +1,90 @@
+.container {
+    margin: 0 5.5rem;
+    padding: 1rem 3rem;
+    background-color: var(--background-color);
+    /* height: 96%; */
+    overflow-y: hidden;
+    margin-bottom: 1rem;
+}
+
+.container__body {
+    display: block;
+  }
+
+nav {
+  /*this part added scroller*/
+  min-width: 25rem;
+  overflow-y: auto;
+  max-height: 90vh;
+  /* width: 100%; */
+}
+
+ul {
+  list-style: none;
+}
+
+.split {
+  display: flex;
+  justify-content: space-between;
+}
+
+.email__body {
+  flex: 1;
+  height: 80vh;
+  width: 100%;
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  background-color: white;
+  margin-top: 1.4rem;
+  margin-left: 1.5rem;
+  padding: 1.5rem;
+}
+.email__body header {
+  display: flex;
+}
+.email__body__header {
+  flex: 0.94;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.email__body__info p {
+  margin-top: 1.5rem;
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--text-color);
+}
+h1 {
+  color: var(--text-color);
+  margin-left: 0.2rem;
+  font-weight: 500;
+}
+
+.favorite {
+  font-size: 0.65rem;
+  color: white;
+  background-color: var(--accent-color);
+  padding: 0.4rem 0.8rem;
+  border: 1px solid var(--border-color);
+  border-radius: 1rem;
+}
+
+.unfavorite {
+  font-size: 0.65rem;
+  color: white;
+  background-color: var(--text-color);
+  padding: 0.4rem 0.8rem;
+  border: 1px solid var(--border-color);
+  border-radius: 1rem;
+}
+
+.email__body__content div {
+  max-height: 32rem;
+  overflow-y: auto;
+}
+.email__body__content div p {
+  color: var(--text-color);
+  margin: 2.1rem 4.2rem;
+  font-size: 0.9rem;
+}

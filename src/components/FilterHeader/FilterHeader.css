@@ -1,0 +1,30 @@
+.header__container {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-right: 1.5rem;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+button {
+    border: none;
+    background: transparent;
+    margin-right: 0.5rem;
+    padding: 0.1rem 0.75rem;
+    font-size: 1rem;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.active {
+    border: 1px solid var(--border-color);
+    background-color: var(--filter-button-color);
+    border-radius: 1rem;
+    color: var(--text-color);
+}
+
